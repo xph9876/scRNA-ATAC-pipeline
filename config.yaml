@@ -1,0 +1,30 @@
+# I/O
+input_csv: 'input/pbmc_unsorted_3k_library.csv'
+cellranger_output_path: "pbmc_unsorted_3k"
+ref_path: "ref/refdata-cellranger-arc-GRCh38-2020-A-2.0.0"
+output: "results"
+
+# Sample
+sample_name: "pbmc_unsorted_3k"
+
+# RNA Parameters
+min_genes_rna: 1000
+max_genes_rna: 25000
+max_mt_percentage: 20
+
+# ATAC Parameters
+min_genes_atac: 5e3
+max_genes_atac: 7e4
+# Min cells per gene
+min_cells: 3
+# Number of variable features
+variable_features: 2000
+# Number of PCs
+npcs: 15
+# SNN resolution
+snn_resolution: 0.1
+# ATAC annotations
+atac_annot_source: "UCSC"
+atac_annot_genome: "hg38"
+
+
