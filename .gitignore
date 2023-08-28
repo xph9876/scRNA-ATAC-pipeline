@@ -47,3 +47,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+input
+output
+pbmc_unsorted_3k
+ref
+tools
+.snakemake
